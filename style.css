@@ -44,10 +44,12 @@ body{
 }
 
 .weather{
+    color: white;
     font-size: 32px;
 }
 
 .low-high {
+    color: white;
     font-size: 22px;
 }
 
