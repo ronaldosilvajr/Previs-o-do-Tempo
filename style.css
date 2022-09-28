@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body{
+    align-items: center;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    background-image: url(./icons/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+.card-header {
+    color: bisque;
+}
+
+.city{
+    color: white;
+    font-size: 32px;
+}
+
+.date {
+    color: white;
+    font-size: 16px;
+}
+
+.container-temp{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    box-shadow: 5px 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    border-radius: 15px;
+
+    color: white;
+    font-size: 100px;
+    font-weight: 900;
+    text-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather{
+    font-size: 32px;
+}
+
+.low-high {
+    font-size: 22px;
+}
+
+.card {
+    background-color: transparent;
+    border-radius: 15px;
+}
